@@ -200,7 +200,7 @@ export const WorldMap = () => {
             }
           </div>
           <Frame styles='map-grid-frame' contentStyles='map-grid'>
-            <img src={GetWorldImage(`es_mapa${activeWorld + 1}`)} style={mapImageStyle}></img>
+            <img src={GetWorldImage(`es_mapa${activeWorld + 1}`)} style={mapImageStyle} />
             <div className='grid-layer' style={gridStyle}>
               {
                 grid.map( (mapNumber, index) => (
